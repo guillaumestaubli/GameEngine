@@ -1,0 +1,1297 @@
+[
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 1,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Death_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Death_with_shadow.png",
+    "NbColumns": 7,
+    "NbLines": 4,
+    "Action": 7,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Hurt_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Hurt_with_shadow.png",
+    "NbColumns": 5,
+    "NbLines": 4,
+    "Action": 6,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Idle_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Idle_with_shadow.png",
+    "NbColumns": 12,
+    "NbLines": 4,
+    "Action": 0,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 4,
+        "AnimationInterval": 510
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Run_Attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Run_Attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 5,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Run_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Run_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 4,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Walk_Attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Walk_Attack_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 3,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Sword",
+    "Name": "Sword_Walk_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Sword\\Sword_Walk_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 2,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Unarmed",
+    "Name": "Unarmed_Death_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Unarmed\\Unarmed_Death_with_shadow.png",
+    "NbColumns": 7,
+    "NbLines": 4,
+    "Action": 7,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 7,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Unarmed",
+    "Name": "Unarmed_Hurt_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Unarmed\\Unarmed_Hurt_with_shadow.png",
+    "NbColumns": 5,
+    "NbLines": 4,
+    "Action": 6,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 5,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Unarmed",
+    "Name": "Unarmed_Idle_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Unarmed\\Unarmed_Idle_with_shadow.png",
+    "NbColumns": 12,
+    "NbLines": 4,
+    "Action": 0,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 12,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Unarmed",
+    "Name": "Unarmed_Run_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Unarmed\\Unarmed_Run_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 4,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Male_Character",
+    "SubGroup": "Unarmed",
+    "Name": "Unarmed_Walk_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Male_Character\\Unarmed\\Unarmed_Walk_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 2,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 1,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_death_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_death_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 7,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_hurt_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_hurt_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 6,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_idle_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_idle_with_shadow.png",
+    "NbColumns": 4,
+    "NbLines": 4,
+    "Action": 0,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_run_attack_front_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_run_attack_front_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 5,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_run_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_run_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 4,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_walk_attack_front _with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_walk_attack_front _with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 3,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_1",
+    "Name": "orc1_walk_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_1\\orc1_walk_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 2,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 1,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_death_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_death_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 7,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_hurt_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_hurt_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 6,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_idle_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_idle_with_shadow.png",
+    "NbColumns": 4,
+    "NbLines": 4,
+    "Action": 0,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_run_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_run_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 5,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_run_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_run_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 4,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_walk_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_walk_attack_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 3,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_2",
+    "Name": "orc2_walk_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_2\\orc2_walk_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 2,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 1,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_death_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_death_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 7,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_hurt_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_hurt_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 6,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_idle_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_idle_with_shadow.png",
+    "NbColumns": 4,
+    "NbLines": 4,
+    "Action": 0,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 4,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_run_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_run_attack_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 5,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_run_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_run_with_shadow.png",
+    "NbColumns": 8,
+    "NbLines": 4,
+    "Action": 4,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 8,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_walk_attack_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_walk_attack_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 3,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  },
+  {
+    "MainGroup": "Orc",
+    "SubGroup": "Orc_3",
+    "Name": "orc3_walk_with_shadow",
+    "Path": "Ressources\\Textures\\Entities\\Orc\\Orc_3\\orc3_walk_with_shadow.png",
+    "NbColumns": 6,
+    "NbLines": 4,
+    "Action": 2,
+    "TextureLinesDescription": [
+      {
+        "Direction": 0,
+        "LineIndex": 0,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 3,
+        "LineIndex": 1,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 1,
+        "LineIndex": 2,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      },
+      {
+        "Direction": 2,
+        "LineIndex": 3,
+        "NbSprites": 6,
+        "AnimationInterval": 170
+      }
+    ]
+  }
+]

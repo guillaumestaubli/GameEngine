@@ -1,0 +1,412 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="SFML.Net" Version="2.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SfmlControls\SfmlControls.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EntityTexturesConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Fonts\arial.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Death_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Hurt_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Idle_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Run_Attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Run_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Walk_Attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Sword\Sword_Walk_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Unarmed\Unarmed_Death_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Unarmed\Unarmed_Hurt_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Unarmed\Unarmed_Idle_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Unarmed\Unarmed_Run_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Male_Character\Unarmed\Unarmed_Walk_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_death_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_hurt_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_idle_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_run_attack_front_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_run_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_walk_attack_front _with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_1\orc1_walk_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_death_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_hurt_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_idle_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_run_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_run_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_walk_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_2\orc2_walk_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_death_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_hurt_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_idle_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_run_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_run_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_walk_attack_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Entities\Orc\Orc_3\orc3_walk_with_shadow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 06.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 07.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 08.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_1\Top-Down Simple Summer_Ground 09.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_2\Top-Down Simple Summer_Ground 18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 21.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 22.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 23.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 24.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 25.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 26.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_3\Top-Down Simple Summer_Ground 27.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 28.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 30.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 31.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 33.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 34.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 35.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_4\Top-Down Simple Summer_Ground 36.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 37.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 38.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 39.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 40.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 41.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 42.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 43 .png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 44.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 45.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 46.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 47.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_5\Top-Down Simple Summer_Ground 48.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 49.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 50.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 51.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 52.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 53.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 54.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 55.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 56.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Ground\SimpleSummer\Group_6\Top-Down Simple Summer_Ground 57.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_1\Top-Down Simple Summer_Prop - Blue Banner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_1\Top-Down Simple Summer_Prop - Flag.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_1\Top-Down Simple Summer_Prop - Red Banner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Bushes Large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Bushes Medium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Bushes Small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_prop - Tree Large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Tree Medium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Tree Small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Tree Stump Short.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_2\Top-Down Simple Summer_Prop - Tree Stump Tall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_3\Top-Down Simple Summer_Prop - Rock 01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_3\Top-Down Simple Summer_Prop - Rock 02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_3\Top-Down Simple Summer_Prop - Rock 03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_3\Top-Down Simple Summer_Prop - Rock 04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_3\Top-Down Simple Summer_Prop - Rock 05.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Campfire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Magic Stone Tower.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Treasure Chest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Well.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Wooden Barrel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_4\Top-Down Simple Summer_Prop - Wooden Cart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Watchtower Short.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Watchtower Tall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Wooden Bridge Horizontal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Wooden Bridge Vertical.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Wooden Fence Horizontal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_5\Top-Down Simple Summer_Prop - Wooden Fence Vertical.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_6\Top-Down Simple Summer_Prop - Castle Round.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_6\Top-Down Simple Summer_Prop - Castle Square.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_6\Top-Down Simple Summer_Prop - House.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_6\Top-Down Simple Summer_Prop - Tent.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\Textures\Prop\SimpleSummer\Group_6\Top-Down Simple Summer_Prop - Windmill.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Ressources\texture_not_found.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
